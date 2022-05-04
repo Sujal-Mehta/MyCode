@@ -1,0 +1,8 @@
+part :	link
+
+1	https://www.youtube.com/watch?v=agGVxezPdQg&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=22 
+2	https://www.youtube.com/watch?v=5aLfZf4kRPA&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=23
+3	https://www.youtube.com/watch?v=KhzrbrlfiCw&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=24
+4	https://www.youtube.com/watch?v=teCV3zMzbxA&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=25
+
+

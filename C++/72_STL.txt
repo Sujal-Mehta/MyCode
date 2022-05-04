@@ -1,0 +1,26 @@
+STL -> Standard Template Library 
+Library of what ? 
+    -> Generic Classes and Functions 
+
+Why use STL -> Reuse : Well Tested Components 
+
+Comonents of STL -> Containers , Algorithms , Iterators 
+    -> containers = object which stores data
+    -> procedure to process data
+    -> object which points to an element of a container 
+
+containers                          
+    -sequence containers -> Linear fashion (Vector , List , Dequeue , etc....)                            
+    -associative containers -> Direct Access {Tree}(Set,Multiset,Map,Multimap , etc....)       
+    -derived containers -> Real World Modelling (Stack , Queue , Priority-queue , etc....) 
+        1.Sequence containers 
+            Vector  -> Random Access = fast
+                    -> Middle Insertion/Deletion = slow , Insertion/Deletion at the end = fast 
+            List    -> Random Access = Slow
+                    -> Middle Insertion/Deletion = fast , Insertion/Deletion at the end = fast
+        2.Associative Containers    
+                    -> All operation Fast Except Random Access
+        3.Derived containers
+                    ->Depends ->(Data Structure)    
+
+    

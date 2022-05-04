@@ -1,0 +1,6 @@
+parts	link
+
+1	https://www.youtube.com/watch?v=yAgbi0xsOFw&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=52
+2	https://www.youtube.com/watch?v=wFJm7redTZc&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=53
+3	https://www.youtube.com/watch?v=WLKWO9yu71s&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=54
+4	https://www.youtube.com/watch?v=o5ykL493XMU&list=PLNVYPdwUvy6Q_9-DsBJwVvG3qycDRsg2B&index=55

@@ -1,0 +1,116 @@
+				## SQL Data Types :  ##
+
+Numeric            	->	bit , tinyint , smallint , int , bigint , decimal , numeric , float , real 
+Character/String   	->	char , varchar , text 
+Date/Time          	->	Date , Time , DateTime , Timestamp , Year 
+Miscellaneous      	->	JSON , XML 
+
+				## Constraint : ##
+
+Not Null   ->      Ensures that a column does not have a NULL value .
+Default    ->      Provides a default value for a column when none is specified .
+Unique     ->      Ensures that all the values in a column are different
+Primary    ->      Identifies each row/record in a database table uniquely .
+Check      ->      Ensures that all values in a column satisfy certain conditions .
+Index      ->      Creates and retrieves data from the database very quickly .
+
+				## SQL Command Groups : ##
+
+            Language                            Objective
+DDL  (Data Definition Language)    	:	creation of objects 
+DML  (Data Manipulation Language)  	:	manipulation of data 
+DCL  (Data Control Language)       	:	assignment and removal of permissions 
+TCL  (Transaction Control Language)	:	saving and restoring changes to a database
+
+				## DDL - Data Definition Language : ##
+                              
+    Commands                    Used For
+Create  		->	Creates objects in the database/database objects 
+Alter   		->	Alters the structures of the database/database objects 
+Drop    		->	Deletes objects from the database 
+Truncate		->	Removes all record from a table permanently
+Rename  		->	Renames an objects 
+
+				## Operators - Filter : ##
+
+WHERE Clause : 
+	-Used to specify a condition while fetching the data from a single table or by joining with multiple tables . 
+	-Not only used in the SELECT statement , but it is also used in the UPDATE , DELETE statement , etc.
+			
+	(i.e. SELECT *FROM employees WHERE emp_id = 101;)
+The example mentioned above extracts all the columns from the table 'employees' whose emp_id = 101;
+
+				## SQL Operator - Logical : ##
+
+Operators	
+AND			->	When all condition are true
+OR			->	If any one of the condition is true 
+NOT			->	Opposite
+			(i.e. SELECT *FROM employees WHERE FIRST_NAME = 'Sujal' AND SALARY = 1000 ;)
+
+				## SQL Operator - Comparision : ##
+
+Symbol				Meaning
+=				->	Equal to
+>				->	Greater than
+>= 				->	Greater than or equal to
+<				->	Less than
+<= 				->	Less than or equal to 
+<> or != 		->	Not equal to 
+				(i.e. SELECT *FROM employees WHERE SALARY > 1000 ;)
+
+				## SQL Operator - Special : ##
+	
+BETWEEN		->	Checks an attribute value within range
+LIKE 		->	Checks an attribute value matches a given string pattern
+IS NULL		->	Checks an attribute value is NULL
+IN			->	Checks an attribute value matches any value within a value list
+DISTINCT	->	Limits values to unique values
+								
+				## SQL Operator - Aggregations :  ##
+
+Aggregations Functions		Uses
+AVG()					->	Returns the average value from specified columns 
+COUNT()					->	Returns number of table rows 
+MAX()					->	Returns largest value among the records 
+MIN()					->	Returns smallest value among the records
+SUM()					->	Returns the sum of specified column values 
+						i.e. SELECT AVG(SALARY) FROM employees
+
+				## SQL GROUP BY Clause : ##
+
+-Arrange Identical Data Into Groups 
+
+				## SQL HAVING Clause : ##
+
+-Used with aggrgate functions due to its non-performance in the WHERE clause . 
+-Must follow the GROUP BY clause in a query and must also precede the ORDER BY clause if used . 
+ i.e. SELECT AVG(SALARY),DEPARTMENT_ID FROM employees GROUP BY DEPARTMENT_ID HAVING COUNT(DEPARTMENT_ID)>=2
+
+				## SQL ORDER BY Clause : ##
+
+-Used to sort output of SELECT statement 
+-Default is to sort in ASC (Acending)
+-Can Sort in Revers(Descending) Order with "DESC" after the column name 
+ i.e. SELECT *FROM employees ORDER BY SALARY DESC ;
+
+				## SQL UNION : ##
+
+-Used to combine the result-set of two or more SELECT Statements removing duplicates
+-Each SELECT Statement within the UNION must have the same number of columns
+-The selected columns must be of similar data types and must be in the same order in each SELECT Statements
+
+				## SQL UNION : ##
+
+-Combine rows/columns from two or more tables, based on a related column between them in a database
+	->INNER JOIN 		(Returns rows when there is a match in both sides)
+	->LEFT JOIN 		(Return all rows from the left table , even if there are no matches in the right table)
+	->RIGHT JOIN 		(Returns all rows from the right table , even if there are no matches in the left table )
+	->FULL OUTER JOIN	(Return rows when there is a match in one of the tables)
+	->SELF JOIN 		(Used to join a table to itself as if the table were two tables,						 							 temporarily renaming at least one table in the SQL Statement .)
+	->CARTESIAN JOIN	(Return the Cartesian product of the sets of records from the two 
+	/(Cross JOIN)		 or more joined tables .)
+	
+
+
+

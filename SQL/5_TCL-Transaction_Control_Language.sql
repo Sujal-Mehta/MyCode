@@ -1,0 +1,8 @@
+/*
+Command								Description
+
+Commit								Saves the work done
+Rollback							Restores database to origin state since the last commit
+Savepoint							Identify a point in a transaction to which you can roll back later
+
+*/
